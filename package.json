@@ -1,0 +1,20 @@
+{
+  "name": "online-shop-project-strapi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/manaparvar/online-shop-project-strapi#readme",
+  "bugs": {
+    "url": "https://github.com/manaparvar/online-shop-project-strapi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manaparvar/online-shop-project-strapi.git"
+  },
+  "license": "ISC",
+  "author": "Mana Abbasparvar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
