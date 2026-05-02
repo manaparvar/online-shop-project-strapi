@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_organisms_product_specifications",
+  "info": {
+    "displayName": "product-specifications",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}
