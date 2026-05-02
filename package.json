@@ -1,20 +1,41 @@
 {
   "name": "online-shop-project-strapi",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/manaparvar/online-shop-project-strapi#readme",
-  "bugs": {
-    "url": "https://github.com/manaparvar/online-shop-project-strapi/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manaparvar/online-shop-project-strapi.git"
-  },
-  "license": "ISC",
-  "author": "Mana Abbasparvar",
-  "type": "commonjs",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.44.0",
+    "@strapi/plugin-users-permissions": "5.44.0",
+    "@strapi/strapi": "5.44.0",
+    "better-sqlite3": "12.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "a41aedd6-a8be-4d3c-841c-9af8cbb88245",
+    "installId": "54046137489c51774d221779f673b31e9791d839ce033431397ac83e4ee04d91"
   }
 }
