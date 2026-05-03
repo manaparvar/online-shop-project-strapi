@@ -29,8 +29,9 @@
       "required": true,
       "default": 0
     },
-    "current_price": {
+    "price_at_purchase": {
       "type": "decimal",
+      "required": true,
       "default": 0,
       "min": 0
     }
