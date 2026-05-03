@@ -679,7 +679,7 @@ export interface ApiOrderItemOrderItem extends Struct.CollectionTypeSchema {
 export interface ApiOrderOrder extends Struct.CollectionTypeSchema {
   collectionName: 'orders';
   info: {
-    displayName: 'Order';
+    displayName: 'order';
     pluralName: 'orders';
     singularName: 'order';
   };
