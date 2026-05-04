@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_organisms_product_colors",
+  "info": {
+    "displayName": "ProductColor",
+    "icon": "paint"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

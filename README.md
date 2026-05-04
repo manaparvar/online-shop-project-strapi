@@ -7,9 +7,8 @@ Strapi comes with a full featured [Command Line Interface](https://docs.strapi.i
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 
 ```
-npm run develop
-# or
-yarn develop
+PORT=1338 npm run develop
+
 ```
 
 ### `start`
@@ -18,8 +17,7 @@ Start your Strapi application with autoReload disabled. [Learn more](https://doc
 
 ```
 npm run start
-# or
-yarn start
+
 ```
 
 ### `build`
@@ -59,3 +57,8 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+# 📚 restart Local Production when dev change
+
+1. npm run build
+2. restart pm2 by pm2 restart strapi

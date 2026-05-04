@@ -22,15 +22,6 @@
     "description": {
       "type": "text"
     },
-    "images": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files"
-      ]
-    },
     "mainImage": {
       "type": "media",
       "multiple": false,
@@ -45,11 +36,6 @@
       "required": true,
       "default": 0,
       "min": 0
-    },
-    "colors": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::color.color"
     },
     "sizes": {
       "type": "relation",
@@ -83,6 +69,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product"
+    },
+    "productColor": {
+      "type": "component",
+      "component": "organisms.product-color",
+      "repeatable": true
     }
   }
 }
