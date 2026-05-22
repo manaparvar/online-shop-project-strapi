@@ -37,6 +37,11 @@
       "default": 0,
       "min": 0
     },
+    "original_price": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0
+    },
     "sizes": {
       "type": "relation",
       "relation": "oneToMany",
